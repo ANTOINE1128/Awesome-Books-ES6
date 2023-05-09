@@ -61,7 +61,7 @@
   </header>
 
 <body class="body">
-    <div class="container b1 mt-4"  id ="tableList">
+    <div class="container b1 mt-4   "  id ="tableList">
         <h1 class="display-4 text-center">
           <i class="fas fa-book-open text-primary"></i> My<span class="text-primary">Book</span>List</h1>
           <form id="book-form">
@@ -79,8 +79,9 @@
             </div>
             <input type="submit" value="Add Book" class="btn btn-primary btn-block">
           </form>
-          <table class="table table-striped mt-5">
-            <thead id ="book-list">
+          <div class="container">
+          <table class="table table-striped table-responsive mt-5">
+            <thead id ="book-list" >
               <tr>
                 <th>Title</th>
                 <th>Author</th>
@@ -90,6 +91,7 @@
             </thead>
             <tbody id="book-list"></tbody>
           </table>
+        </div>
  </div>
 
     <section id="contact" class="contact-div">
