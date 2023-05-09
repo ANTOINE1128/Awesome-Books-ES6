@@ -1,17 +1,30 @@
-export function displayList() {
+
+ const displayList = () =>  {
   document.querySelector('#book-list').style.display = 'block';
   document.querySelector('#book-form').style.display = 'none';
   document.querySelector('#contact').style.display = 'none';
 }
 
-export function displayForm() {
+ const displayForm= () => {
   document.querySelector('#book-list').style.display = 'none';
   document.querySelector('#book-form').style.display = 'block';
   document.querySelector('#contact').style.display = 'none';
 }
 
-export function displayContact() {
+ const displayContact = () => {
   document.querySelector('#book-list').style.display = 'none';
   document.querySelector('#book-form').style.display = 'none';
   document.querySelector('#contact').style.display = 'block';
 }
+document.querySelector('.list').addEventListener('click', () => {
+  displayList();
+});
+
+document.querySelector('.add').addEventListener('click', () => {
+  displayForm();
+});
+
+document.querySelector('.contact-page').addEventListener('click', () => {
+  displayContact();
+});
+export {displayContact ,displayForm , displayList}
