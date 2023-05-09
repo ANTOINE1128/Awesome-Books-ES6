@@ -1,8 +1,3 @@
-#book-list {
- font-size: 2rem;
- 
- align-self: center;
-}
 
 #book-form {
   display: none;
@@ -14,4 +9,6 @@
 
 #book-list {
   display: none;
+  font-size: 2rem;
+  align-self: center;
 }
