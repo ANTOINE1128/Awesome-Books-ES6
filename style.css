@@ -1,0 +1,14 @@
+
+#book-form {
+  display: none;
+}
+
+#contact {
+  display: none;
+}
+
+#book-list {
+  display: none;
+  font-size: 2rem;
+  align-self: center;
+}
